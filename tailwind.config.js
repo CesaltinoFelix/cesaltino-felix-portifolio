@@ -12,9 +12,12 @@ module.exports = {
     container: {
       center: true,
       padding: "15px",
-      screens: {
-        "2xl": "1400px",
-      },
+    },
+    screens: {
+      ms: "640px",
+      md: "768px",
+      lg: "960px",
+      xl: "1200px",
     },
     extend: {
       keyframes: {
