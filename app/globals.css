@@ -6,4 +6,13 @@
     body{
       @apply font-primary bg-primary text-white leading-loose;
     }
+    .h1{
+      @apply text-[42px] xl:text-[88px] leading-[1.1] font-semibold;
+    }
+    .h2{
+      @apply text-[36px] xl:text-[48px] leading-[1.1] font-semibold;
+    }
+    .h1{
+      @apply text-[20px] xl:text-[24px] leading-[1.1] font-semibold;
+    }
   }
